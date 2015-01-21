@@ -44,4 +44,22 @@ public class CombineTest {
         Assert.assertEquals(combineValues(listOne, listTwo).toString(), expected);
 
     }
+
+    /**
+     * Test ofdat de methode stopt bij twee lists van een andere lengte
+     **/
+
+    @Test
+    public void testTwo() {
+        List<String> listOne = new ArrayList<>();
+        List<String> listTwo = new ArrayList<>();
+        listOne.add("one");
+        listOne.add("three");
+        listOne.add("five");
+        listTwo.add("two");
+        listTwo.add("four");
+
+        Assert.assertEquals(combineValues(listOne, listTwo).length(), 0);
+
+    }
 }
