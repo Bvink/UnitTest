@@ -32,7 +32,7 @@ public class ProductTypeTest {
      **/
 
     @Test
-    public void testOne() {
+    public void testEight() {
 
         try {
             Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1083069").get();
@@ -48,7 +48,7 @@ public class ProductTypeTest {
      **/
 
     @Test
-    public void testTwo() {
+    public void testNine() {
 
         try {
             Document doc = Jsoup.connect("http://www.paradigit.nl/kingston-1gb-pc3-10600-sodimm/80001370/details.aspx").get();

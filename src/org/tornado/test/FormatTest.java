@@ -18,18 +18,18 @@ public class FormatTest {
      **/
 
     @Test
-    public void testOne() {
+    public void testThree() {
 
         Assert.assertEquals(formatPrice("€ 99.99*"), "99.99");
 
     }
 
     /**
-     * Test ofdat dit een foute uitkomst geeft.
+     * Test ofdat dit fout gaat zonder extra tekens.
      **/
 
     @Test
-    public void testTwo() {
+    public void testFour() {
 
         Assert.assertNotEquals(formatPrice("99.99"), "99.99");
 

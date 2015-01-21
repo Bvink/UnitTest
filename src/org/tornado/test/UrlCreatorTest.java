@@ -21,7 +21,7 @@ public class UrlCreatorTest {
      **/
 
     @Test
-    public void testOne() {
+    public void testTen() {
 
         int i = 10;
         Assert.assertTrue(createUrl(Integer.toString(i)).equals("https://www.alternate.nl/html/product/" + i));

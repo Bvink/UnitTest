@@ -49,7 +49,7 @@ public class ProductAttributeTest {
      **/
 
     @Test
-    public void testOne() {
+    public void testFive() {
 
         try {
             Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1083069").get();
@@ -65,7 +65,7 @@ public class ProductAttributeTest {
      **/
 
     @Test
-    public void testTwo() {
+    public void testSix() {
 
         try {
             Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1006160").get();
@@ -83,7 +83,7 @@ public class ProductAttributeTest {
      **/
 
     @Test
-    public void testThree() {
+    public void testSeven() {
 
         try {
             Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1006160").get();
