@@ -61,7 +61,7 @@ public class ProductAttributeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van verschillende producten verschilt op inhoud en lengte
+     * Test ofdat de opgehaalde data van verschillende producten verschilt op inhoud.
      **/
 
     @Test
@@ -73,7 +73,24 @@ public class ProductAttributeTest {
             doc = Jsoup.connect("https://www.alternate.nl/html/product/1018540").get();
             List<String> list = getProductAttributes(doc);
             Assert.assertNotEquals(list, different);
-            Assert.assertNotEquals(list.size(), different);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Test ofdat de opgehaalde data van verschillende producten verschilt op lengte.
+     **/
+
+    @Test
+    public void testThree() {
+
+        try {
+            Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1006160").get();
+            List<String> different = getProductAttributes(doc);
+            doc = Jsoup.connect("https://www.alternate.nl/html/product/1018540").get();
+            List<String> list = getProductAttributes(doc);
+            Assert.assertNotEquals(list.size(), different.size());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -85,7 +102,7 @@ public class ProductAttributeTest {
      **/
 
     @Test
-    public void testThree() {
+    public void testFour() {
         try {
             Document doc = Jsoup.connect("https://www.alternate.nl/html/product/1125042").get();
             Assert.assertTrue(getProductAttributes(doc).size() > 0);
