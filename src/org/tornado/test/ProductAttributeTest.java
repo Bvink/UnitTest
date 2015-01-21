@@ -45,7 +45,7 @@ public class ProductAttributeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van de website gelijk is aan het verwachte resultaat.
+     * Test ofdat de opgehaalde attributen van de website gelijk is aan het verwachte resultaat.
      **/
 
     @Test
@@ -61,7 +61,7 @@ public class ProductAttributeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van verschillende producten verschilt op inhoud.
+     * Test ofdat de opgehaalde attributen van verschillende producten verschilt op inhoud.
      **/
 
     @Test
@@ -79,7 +79,7 @@ public class ProductAttributeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van verschillende producten verschilt op lengte.
+     * Test ofdat de opgehaalde attributenv an verschillende producten verschilt op lengte.
      **/
 
     @Test

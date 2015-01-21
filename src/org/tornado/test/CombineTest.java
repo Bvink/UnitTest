@@ -27,7 +27,7 @@ public class CombineTest {
     }
 
     /**
-     * Test ofdat de attributen en waarden van een object gecombineerd worden.
+     * Test ofdat het combineren van attributen en waarden succesvol gebeurt.
      **/
 
     @Test
@@ -46,7 +46,7 @@ public class CombineTest {
     }
 
     /**
-     * Test ofdat de methode stopt bij twee lists van een andere lengte
+     * Test ofdat het combineren van attributen en waarden van een product stopt als er meer of miner attributen dan waarden zijn.
      **/
 
     @Test

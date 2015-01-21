@@ -14,7 +14,7 @@ public class FormatTest {
     }
 
     /**
-     * Test ofdat de verwachte vervanging plaats vindt.
+     * Test ofdat de prijzen van Alternate correct geformatteerd worden voor de database.
      **/
 
     @Test
@@ -25,7 +25,7 @@ public class FormatTest {
     }
 
     /**
-     * Test ofdat dit fout gaat zonder extra tekens.
+     * Test ofdat deze methode bij andere websites incorrect is.
      **/
 
     @Test

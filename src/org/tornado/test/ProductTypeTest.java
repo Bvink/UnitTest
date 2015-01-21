@@ -28,7 +28,7 @@ public class ProductTypeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van de website gelijk is aan het verwachte resultaat.
+     * Test ofdat het opgehaalde type van Alternate gelijk is aan het verwachte resultaat.
      **/
 
     @Test
@@ -44,7 +44,7 @@ public class ProductTypeTest {
     }
 
     /**
-     * Test ofdat de opgehaalde data van de website gelijk is aan het verwachte resultaat.
+     * Test ofdat het opgehaalde type van Paradigit gelijk is aan het verwachte resultaat.
      **/
 
     @Test
